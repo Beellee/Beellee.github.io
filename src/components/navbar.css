@@ -1,0 +1,28 @@
+/*.navbarBox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    background-color: greenyellow;
+}
+navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    gap: 0.25rem;
+    padding: 0.4rem; 
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 50px;
+}
+*/
