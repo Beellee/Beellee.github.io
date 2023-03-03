@@ -1,18 +1,23 @@
 import './App.css';
-import MacTop from "./components/MacTop"
+
 import Navbar from "./components/Navbar";
 
+import AboutContact from './pages/AboutContact';
+import UniProjects from './pages/UniProjects';
+import Skills from './pages/Skills';
+
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-//<MacTop/>
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
         <Routes>
-          <Route path="/" exact />
+          <Route path="/AboutContact" element={<AboutContact />} />
+          <Route path='/UniProjects' element={<UniProjects/>} />
+          <Route path='/Skills' element={<Skills/>} />
         </Routes>
+        <Navbar/>
       </Router>
     </div>
   );
