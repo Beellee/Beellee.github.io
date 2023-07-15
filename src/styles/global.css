@@ -1,0 +1,42 @@
+/*COLORS
+#F95A62 -red
+#135DBB -dark blue
+#1590C4 -light blue
+#455C6C -gray
+#F9743B -orange
+#FA9597 -pink 
+#FCC07D -yellow
+#F95009 -salmon
+*/
+
+html, body {
+    margin:0px;
+    position: absolute;
+    height: 100vh;
+    background:
+        linear-gradient(rgb(220, 220, 220), transparent),
+        linear-gradient(to top left, #f6c792, transparent),
+        linear-gradient(to top right, #065ccb, transparent);
+    background-blend-mode: screen;
+}
+.pageContainer{
+    padding-left: 5vw ;
+    padding-right: 5vw ;
+}
+
+* {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 125px;
+}
+p {
+    font-size: 20px;
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+

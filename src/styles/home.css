@@ -1,0 +1,12 @@
+.textContainer{
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 5vh;
+}
+
+.linkMore{
+    align-self: flex-end;
+}

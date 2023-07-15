@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 
-import "./navbar.css"
+import "../styles/navbar.css"
 
 function Navbar() {
   //const [click, setClick] = useState(false);
@@ -10,15 +10,18 @@ function Navbar() {
 
   return (
     <div className= "navbarBox">
-        <ul className='navMenu'>
-          <Link to="/aboutContact">
-            <li>About me & contact</li>
+        <ul className='ul-navbar'>
+          <Link to="/home" className="a-navbar" tabIndex={1}>
+            <li className="li-navbar">Home</li>
           </Link>
-          <Link to="/uniProjects">
-            <li>University & Projects</li>
+          <Link to="/projects" className="a-navbar" tabIndex={2}>
+            <li className="li-navbar">Projects</li>
           </Link> 
-          <Link to="/skills">
-            <li>Skills</li>
+          <Link to="/skills" className="a-navbar" tabIndex={3}>
+            <li className="li-navbar">Skills</li>
+          </Link>
+          <Link to="/contact" className="a-navbar" tabIndex={4}>
+            <li className="li-navbar">Contact</li>
           </Link>
         </ul>
     </div>
