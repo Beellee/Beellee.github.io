@@ -1,0 +1,57 @@
+.element { 
+    display: flex;
+    flex-direction: column;
+    border-radius: 3vh;
+    
+    height: auto;
+
+    box-shadow: 0 0 3vh #c2c1c2;
+    background-color: rgb(250, 247, 247);
+}
+
+.topPart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vmin;
+}
+.colors {
+    display: flex;
+}
+.red {
+    margin-left: 1vmin;
+    margin-top: 0.5vmin;
+    width: 1.5vh;
+    height: 1.5vh;
+    border-radius: 50%;
+    background-color: #F84645;
+}
+.yellow {
+    margin-left: 0.8vmin;
+    margin-top: 0.5vmin;
+    width: 1.5vh;
+    height: 1.5vh;
+    border-radius: 50%;
+    background-color: #FBAF24;
+}
+.green {
+    margin-left: 0.8vmin;
+    margin-top: 0.5vmin;
+    width: 1.5vh;
+    height: 1.5vh;
+    border-radius: 50%;
+    background-color: #29C532;
+}
+.elementTitle {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    right: 3.5vmin;
+}
+.customText{
+    padding: 15px;
+}
+
+
+
+
+

@@ -1,0 +1,9 @@
+.MacTab1{
+   width: 50vw; 
+}
+.MacTab2{
+    width: 60vw;
+    position: relative;
+    left: 30vw;
+    top: 30vh;
+}

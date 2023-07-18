@@ -12,14 +12,17 @@
 html, body {
     margin:0px;
     position: absolute;
+    
     height: 100vh;
+    overflow-y: scroll;
+
     background:
         linear-gradient(rgb(220, 220, 220), transparent),
         linear-gradient(to top left, #f6c792, transparent),
         linear-gradient(to top right, #065ccb, transparent);
     background-blend-mode: screen;
 }
-.pageContainer{
+#pageContainer{
     padding-left: 5vw ;
     padding-right: 5vw ;
 }
