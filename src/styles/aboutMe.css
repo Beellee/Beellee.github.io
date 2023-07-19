@@ -1,9 +1,45 @@
+.parentDivAbout{
+    display: flex;
+    flex-direction: column;
+}
+.parentDivAbout > *{
+    margin-bottom: 10vh;
+}
 .MacTab1{
    width: 50vw; 
+   align-self: flex-start;
 }
 .MacTab2{
     width: 60vw;
-    position: relative;
-    left: 30vw;
-    top: 30vh;
+    align-self: flex-end;
+}
+.MacTab3{
+    width: 40vw;
+    align-self: flex-start;
+}
+.MacTab4{
+    width: 40vw;
+    align-self: flex-end;
+}
+.h2-about{
+    margin-top: 0px;
+}
+.likeLayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 15vh;
+    gap: 3vw;
+}
+.girdElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    font-size: 60px;
+}
+.girdElement-p{
+    width: 10vw;
+    text-align: center;
 }

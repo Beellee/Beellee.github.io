@@ -3,6 +3,7 @@ import "../styles/macTab.css"
 
 
 function MacTab({ title, text, className }) {
+  const paragraphs = text.split(/\n+/);
     return (
         <div className= {`element ${className}`}>
           <div className="topPart">
@@ -14,7 +15,13 @@ function MacTab({ title, text, className }) {
             <p className="elementTitle">{title}</p>
           </div>
           <div className="customText">
-            {text}
+            {/* Render each paragraph with separate lines */}
+            {paragraphs.map((paragraph, index) => (
+              <React.Fragment key={index}>
+                {index > 0 && <br />} {/* Add <br /> element for line breaks */}
+                {paragraph}
+              </React.Fragment>
+            ))}
           </div>
         </div>
     

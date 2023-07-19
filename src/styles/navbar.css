@@ -4,7 +4,8 @@
     display: flex;
     flex: column;
     justify-content: center;
-    position: absolute;
+    position: fixed;
+    z-index: 987654321;
     bottom: 15px;
     background-color: transparent;
 }
