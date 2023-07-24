@@ -1,3 +1,14 @@
+.my-div {
+    margin: 50px 0;
+    height: 200px;
+    background: #007BFF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
 .parentDivAbout{
     display: flex;
     flex-direction: column;
@@ -11,7 +22,7 @@
 }
 .MacTab2{
     width: 60vw;
-    align-self: flex-end;
+    align-self: flex-end;   
 }
 .MacTab3{
     width: 40vw;

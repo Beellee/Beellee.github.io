@@ -1,11 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import MacTab from "../components/MacTab";
 import '../styles/aboutMe.css'
 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function About() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // You can adjust the animation duration as per your preference
+    });
+  }, []);
+
   return (
     <div  id="pageContainer" className="parentDivAbout">
     <h1>About me</h1> 
+    
     <MacTab
       title="Education 🎓"
       text="I'm currently studying Data Science at UOC university, and I'm loving every minute of it! Being an aspiring Data Scientist, I'm super passionate about digging into complex datasets and using them to solve real-world problems. But that's not all—I've also been exploring other cool areas like Frontend and Backend development alongside my studies."

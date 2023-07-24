@@ -13,7 +13,7 @@ html, body {
     margin:0px;
     position: absolute;
     
-    height: 100vh;
+    
     overflow-y: scroll;
 
     background:
@@ -23,6 +23,7 @@ html, body {
     background-blend-mode: screen;
 }
 #pageContainer{
+    min-height: 100vh;
     padding-left: 5vw ;
     padding-right: 5vw ;
 }
@@ -38,6 +39,10 @@ h1 {
 h2{
     font-family: 'Source Sans 3', sans-serif;
     font-size: 80px;
+}
+h3{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
 }
 p {
     font-size: 20px;
