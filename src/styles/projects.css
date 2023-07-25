@@ -5,13 +5,27 @@
     overflow-x: auto;
     height: 100vh;
 }
+
+.projectsTitle{
+    padding-left: 5vw;
+    margin-right: 25vw;
+
+    height: 80vh;
+    min-width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.projects-h3{
+    align-self: flex-end;
+    text-align: right;
+}
   
 .projectsWrapper {
     display: flex;
+    gap: 10vw;
 }
   
-.project {
-    width: 600px; /* Adjust the width as per your requirement */
-    margin-right: 20px; /* Add some margin between the projects */
-}
+
   
