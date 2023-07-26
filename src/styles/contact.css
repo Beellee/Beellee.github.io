@@ -10,3 +10,35 @@
     width: 30vw;
     align-self: flex-end;
 }
+.contactContainer{
+    width: 88vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+.link-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.link-email div{
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+}
+.link-email img{
+    height: 30px;
+    width: auto;
+    
+}
+.link-email div > *{
+    max-width: min-content;
+}
+.contactContainer button{
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+}
