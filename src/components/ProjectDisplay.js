@@ -1,5 +1,6 @@
 //rfce
 import React from 'react'
+import BlurCircle from "../unused stuff/BlurCircle";
 import "../styles/projectDisplay.css"
 
 
