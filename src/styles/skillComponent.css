@@ -1,0 +1,13 @@
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: max-content;
+}
+.skillContainer img{
+    width: 60px;
+}
+.skillContainer p{
+    width: 80px;
+    text-align: center;
+}

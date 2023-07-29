@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+  
+.basic {
+    grid-column: 2;
+    grid-row: 1;
+
+    margin-top: 20vh;
+}
+.frontend {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: max-content;
+}
+.dataScience {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid > * {
+    display: flex;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
