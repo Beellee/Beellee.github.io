@@ -6,7 +6,6 @@ function Skill({src, text}) {
   return (
     <div className='skillContainer'>
         <img
-            className='blur-image'
             src={src} // 'src'  for the image source
             alt='Image'
         />
