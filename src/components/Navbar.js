@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className= "navbarBox">
         <ul className='ul-navbar'>
-          <Link to="/home" className="a-navbar" tabIndex={1}>
+          <Link to="/" className="a-navbar" tabIndex={1}>
             <li className="li-navbar">Home</li>
           </Link>
           <Link to="/projects" className="a-navbar" tabIndex={2}>
