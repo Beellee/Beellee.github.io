@@ -21,7 +21,9 @@ function Contact() {
               <p>paulaalvarezc02@gmail.com</p>
             </div>
           </div>
-          <button>Download CV</button>
+          <a href='https://github.com/Beellee/Beellee.github.io/raw/main/src/cv/Paula%20Corbat%C3%B3n%20%C3%81lvarez%20-%20en.pdf' download>
+            <button>Download CV</button>
+          </a>
           <p>Thank you for your interest! I'm excited to hear from you :D</p>
         </div>
       </div>
