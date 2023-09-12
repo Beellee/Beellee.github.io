@@ -1,6 +1,6 @@
 .blur-image {
-    width: 100%;
-    height: auto;
-    transition: filter 0.2s ease; /* Add a transition for smooth effect */
+    height: 45vh;
+    width: auto;
+    transition: filter 0.3s ease; /* Add a transition for smooth effect */
   }
   

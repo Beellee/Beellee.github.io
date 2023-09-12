@@ -4,12 +4,17 @@ import '../styles/projects.css';
 
 //imagenes de los proyectos
 import imageUni from "../images/uniPage.png"
+import imageDataVisDash from "../images/dataVisDashboard.png"
+import imageProjectsWebsite from "../images/projectsWebsite.png"
+
 
 function UniProjects() {
   const scrollContainerRef = useRef(null);
 
   // Languages of the projects
   const projectUni = ['JavaScript', 'HTML', 'CSS'];
+  const projectsWebsite =['React', 'JavaScript', 'HTML', 'CSS']
+  const dataVisDashboard = ['Pyhton', 'JavaScript', 'HTML', 'CSS']
 
   useEffect(() => {
     const scrollContainer = scrollContainerRef.current;
@@ -36,16 +41,26 @@ function UniProjects() {
       </div>
       <div className='projectsWrapper'>
       <Project 
+        projectLink = "https://beellee.github.io/super-acorn-website/university"
         projectTitle="University page" 
         languages={projectUni}
         image = {imageUni}
         projectDescription = "This project serves as a digital repository for all my university projects. The website is built using CSS, HTML, and JavaScript, with each project utilizing different technologies depending on the subject it was created for."
       />
+      <div className='comingSoon'>
+        <h3>Coming Soon ...</h3>
+      </div>
       <Project 
-        projectTitle="University page" 
-        languages={projectUni}
-        image = {imageUni}
-        projectDescription = "This project is meant to be a 'folder' that contains all the projects that I've done along my university. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non turpis luctus, pretium nisl a, finibus erat. Aliquam vitae mattis massa, eu varius augue. Praesent nec condimentum dui. Phasellus vehicula sed nibh at suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam tempor, leo a pulvinar finibus, nunc neque ultrices neque, quis congue felis felis eget risus. Mauris scelerisque magna ac tristique porttitor. Sed varius mattis eros, sed luctus nunc consequat eu."
+        projectTitle="Data visualization dashboard" 
+        languages={dataVisDashboard}
+        image = {imageDataVisDash}
+        projectDescription = " Interactive Data Visualization Dashboard showcasing global energy access, renewable energy adoption, and sustainability insights from 2000 to 2020. This project will allow the user to explore trends, economic impact, and geographical patterns for informed decision-making"
+      />
+      <Project 
+        projectTitle="Project library" 
+        languages={projectsWebsite}
+        image = {imageProjectsWebsite}
+        projectDescription = "An organized online portfolio showcasing my university projects, sorted by technology for easy access and a seamless browsing experience."
       />
         
       </div>
