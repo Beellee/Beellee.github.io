@@ -7,6 +7,15 @@
 #FA9597 -pink 
 #FCC07D -yellow
 #F95009 -salmon
+
+background:
+        linear-gradient(rgb(220, 220, 220), transparent),
+        linear-gradient(to top left, #f6c792, transparent),
+        linear-gradient(to top right, #065ccb, transparent);
+    background-blend-mode: screen;
+
+#252072
+#c7fbdc
 */
 
 html, body {
@@ -17,10 +26,11 @@ html, body {
     overflow-y: scroll;
 
     background:
-        linear-gradient(rgb(220, 220, 220), transparent),
-        linear-gradient(to top left, #f6c792, transparent),
-        linear-gradient(to top right, #065ccb, transparent);
-    background-blend-mode: screen;
+    linear-gradient(rgb(240, 240, 240), transparent),
+    linear-gradient(to top left, #f7f9ce, transparent), /* Amarillo dorado */
+    linear-gradient(to bottom right, #5263fb, transparent); /* Verde */
+background-blend-mode: screen;
+
 }
 #pageContainer{
     min-height: 100vh;
