@@ -1,3 +1,9 @@
+#pageContainerAbout{
+    min-height: 100vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
 .my-div {
     margin: 50px 0;
     height: 200px;

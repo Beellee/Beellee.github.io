@@ -15,7 +15,7 @@ function About() {
   }, []);
 
   return (
-    <div  id="pageContainer" className="parentDivAbout">
+    <div  id="pageContainerAbout" className="parentDivAbout">
     <h1>About me</h1> 
     
     <MacTab
