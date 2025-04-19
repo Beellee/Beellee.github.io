@@ -7,7 +7,7 @@ function Skill({src, text}) {
     <div className='skillContainer'>
         <img
             src={src} // 'src'  for the image source
-            alt='Image'
+            alt=' '
         />
         <p>{text}</p>
     </div>

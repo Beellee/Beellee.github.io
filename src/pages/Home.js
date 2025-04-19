@@ -6,7 +6,7 @@ import avatar from '../images/avatar.png';
 
 function Home() {
   return (
-    <div id="pageContainer" >
+    <div id="pageContainerHome" >
       <div className='rightContainer'>
         <h1>Hello world!</h1> 
         <div className='textContainer'>
@@ -15,7 +15,7 @@ function Home() {
         </div>
       </div>
       <div className='leftContainer'>
-        <img src={avatar} alt='Image' />
+        <img src={avatar} alt=' ' />
       </div>
     </div>
   )

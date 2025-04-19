@@ -10,7 +10,7 @@ function About() {
 
   useEffect(() => {
     AOS.init({
-      duration: 800, // You can adjust the animation duration as per your preference
+      duration: 800, // adjust the animation duration
     });
   }, []);
 

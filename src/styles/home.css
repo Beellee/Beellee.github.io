@@ -1,8 +1,12 @@
-#pageContainer{
+#pageContainerHome{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-height: 100vh;
+    min-width: 80vw;
+    padding-left: 5vw ;
+    padding-right: 5vw ;
 }
 
 .rightContainer{

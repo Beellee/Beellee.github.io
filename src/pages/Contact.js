@@ -13,7 +13,7 @@ function Contact() {
             <div>
               <p>Linkedin</p>
               <a href='https://www.linkedin.com/in/paula-%C3%A1lvarez-4a9474258/'>
-                <img src={linkedinLogo} ></img>
+                <img src={linkedinLogo} alt=' ' ></img>
               </a>
             </div>
             <div>

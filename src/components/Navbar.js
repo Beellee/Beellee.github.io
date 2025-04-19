@@ -1,5 +1,5 @@
 //rfce
-import React, {useState} from 'react'
+import React from 'react' // {useState}
 import { Link } from 'react-router-dom'
 
 import "../styles/navbar.css"

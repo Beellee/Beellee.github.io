@@ -34,6 +34,7 @@ background-blend-mode: screen;
 }
 #pageContainer{
     min-height: 100vh;
+    min-width: 80vw;
     padding-left: 5vw ;
     padding-right: 5vw ;
 }
