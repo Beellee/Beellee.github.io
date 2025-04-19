@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.91cad406.css",
-    "main.js": "/static/js/main.a380c339.js",
-    "static/media/projectsWebsite.png": "/static/media/projectsWebsite.fbf71dfe134f7cc64046.png",
-    "static/media/uniPage.png": "/static/media/uniPage.01dc34e5e8ab6992cb52.png",
-    "static/media/dataVisDashboard.png": "/static/media/dataVisDashboard.dc1472e35419a79afb50.png",
+    "main.css": "/static/css/main.c3843f8f.css",
+    "main.js": "/static/js/main.f3718378.js",
+    "static/media/signLanguage.png": "/static/media/signLanguage.e20f993b20ecdd1e552d.png",
+    "static/media/hawksClassification.png": "/static/media/hawksClassification.3661014e1963a3dcbc23.png",
+    "static/media/cryptoDM.png": "/static/media/cryptoDM.7f9e0c5db8e77c93ef44.png",
+    "static/media/textMining.png": "/static/media/textMining.eca5adb7d8c85dc274e6.png",
+    "static/media/womenInSTEM.png": "/static/media/womenInSTEM.138e8c387467ae88e5f8.png",
+    "static/media/novartisDataton.png": "/static/media/novartisDataton.80d4f067bf8fa5fe32f1.png",
+    "static/media/avatar.png": "/static/media/avatar.05f54a923e8608567df6.png",
+    "static/media/uniDB.jpeg": "/static/media/uniDB.cd333680a9f3ed4ec6a6.jpeg",
     "static/media/vs.png": "/static/media/vs.45dbc75cbde38af852a0.png",
     "static/media/sql.png": "/static/media/sql.346709d92d82791ad17d.png",
     "static/media/git.png": "/static/media/git.abb5df5cb6033db6a886.png",
@@ -15,11 +20,11 @@
     "static/media/js.png": "/static/media/js.ac9e504211b46cfb0118.png",
     "static/media/spoon.webp": "/static/media/spoon.dfa405a05f01e4024452.webp",
     "index.html": "/index.html",
-    "main.91cad406.css.map": "/static/css/main.91cad406.css.map",
-    "main.a380c339.js.map": "/static/js/main.a380c339.js.map"
+    "main.c3843f8f.css.map": "/static/css/main.c3843f8f.css.map",
+    "main.f3718378.js.map": "/static/js/main.f3718378.js.map"
   },
   "entrypoints": [
-    "static/css/main.91cad406.css",
-    "static/js/main.a380c339.js"
+    "static/css/main.c3843f8f.css",
+    "static/js/main.f3718378.js"
   ]
 }
